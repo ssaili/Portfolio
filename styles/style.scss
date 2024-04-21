@@ -124,6 +124,8 @@ footer {
   gap: 200px;
 
   @media (max-width: 1023px) {
+    justify-content: normal;
+    padding-top: 70px;
     flex-direction: column;
     gap: 50px;
   }
@@ -392,6 +394,11 @@ footer {
   justify-content: center;
   flex-direction: column;
 
+  @media (max-width: 767px) {
+    justify-content: normal;
+    padding-top: 70px;
+  }
+
   &__p1 {
     text-align: center;
     color: #555555;
@@ -476,10 +483,16 @@ footer {
 
 //Contact section styles
 .contact {
-  height: calc(100vh - 210px);
+  height: calc(100vh + 70px);
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+
+  @media (max-width: 767px) {
+    justify-content: normal;
+    padding-top: 70px;
+  }
 
   &__p1 {
     text-align: center;
