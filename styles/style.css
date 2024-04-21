@@ -24,7 +24,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 140px;
+  height: 70px;
   background-color: #fff;
   z-index: 2;
 }
@@ -66,7 +66,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 140px;
+    height: 70px;
     background-color: #fff;
   }
 }
@@ -84,7 +84,7 @@ footer {
 .hamburger-header__nav--active {
   display: block;
   position: fixed;
-  top: 140px;
+  top: 70px;
   width: 100%;
   padding-bottom: 15px;
   background-color: #fff;
@@ -103,7 +103,7 @@ footer {
 }
 
 .profile {
-  height: calc(100vh - 50px);
+  height: calc(100vh + 70px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +198,7 @@ footer {
 }
 
 .about {
-  height: calc(100vh + 140px);
+  height: calc(100vh + 70px);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -206,7 +206,7 @@ footer {
 @media (max-width: 767px) {
   .about {
     height: 100%;
-    padding-top: 140px;
+    padding-top: 70px;
   }
 }
 .about__p1 {
@@ -281,7 +281,7 @@ footer {
 }
 
 .skills {
-  height: calc(100vh + 140px);
+  height: calc(100vh + 70px);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -289,7 +289,7 @@ footer {
 @media (max-width: 767px) {
   .skills {
     height: 100%;
-    padding-top: 140px;
+    padding-top: 70px;
   }
 }
 .skills__p1 {
@@ -349,7 +349,7 @@ footer {
 }
 
 .projects {
-  height: calc(100vh + 140px);
+  height: calc(100vh + 70px);
   display: flex;
   justify-content: center;
   flex-direction: column;
