@@ -124,7 +124,7 @@ footer {
   gap: 200px;
 
   @media (max-width: 1023px) {
-    justify-content: normal;
+    justify-content: flex-start;
     padding-top: 70px;
     flex-direction: column;
     gap: 50px;
@@ -395,7 +395,7 @@ footer {
   flex-direction: column;
 
   @media (max-width: 767px) {
-    justify-content: normal;
+    justify-content: flex-start;
     padding-top: 70px;
   }
 
@@ -490,7 +490,7 @@ footer {
   flex-direction: column;
 
   @media (max-width: 767px) {
-    justify-content: normal;
+    justify-content: flex-start;
     padding-top: 70px;
   }
 
