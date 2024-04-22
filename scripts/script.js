@@ -61,9 +61,11 @@ var swiper = new Swiper(".projects__content", {
     },
     768: {
       slidesPerView: 2,
+      autoplay: false,
     },
     1024: {
       slidesPerView: 3,
+      autoplay: false,
     },
   },
 });
