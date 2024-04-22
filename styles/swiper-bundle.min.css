@@ -18,6 +18,7 @@
 }
 :root {
   --swiper-theme-color: #000 !important;
+  --swiper-navigation-color: #000 !important;
 }
 :host {
   position: relative;
