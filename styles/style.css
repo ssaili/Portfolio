@@ -440,6 +440,7 @@ footer {
 }
 .projects__content .swiper-slide-btn-container button {
   font-weight: 600;
+  color: #000;
   padding: 10px 20px;
   margin: 5px;
   border: none;
