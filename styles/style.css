@@ -17,6 +17,17 @@ footer {
   padding-inline: 4vw;
 }
 
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.8s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .desktop-header {
   position: fixed;
   top: 0;
