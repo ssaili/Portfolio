@@ -450,7 +450,7 @@ footer {
   border: none;
   border-radius: 15px;
   background-color: rgb(240, 240, 240);
-  transition: background-color 0.3s;
+  transition: background-color 0.4s;
 }
 .projects__content .swiper-slide-btn-container a:hover {
   background-color: #353535;
